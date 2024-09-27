@@ -230,5 +230,39 @@ JOIN Companies c ON j.CompanyID = c.CompanyID
 WHERE c.Location = 'Chennai'
 AND a.Resume LIKE '%2+ years of experience%'; 
 
+-- Without condition
+SELECT a.FirstName, a.LastName, c.CompanyName
+FROM Applicants a
+JOIN Applications app ON a.ApplicantID = app.ApplicantID
+JOIN Jobs j ON app.JobID = j.JobID
+JOIN Companies c ON j.CompanyID = c.CompanyID
+
+-- Question asked in Viva
+-- Subquery Without any condition 
+SELECT Applicants.FirstName, Applicants.LastName, 
+       (SELECT Companies.CompanyName FROM Jobs 
+        INNER JOIN Companies ON Jobs.CompanyID = Companies.CompanyID
+        WHERE Jobs.JobID = (SELECT Applications.JobID FROM Applications 
+                            WHERE Applications.ApplicantID = Applicants.ApplicantID)
+       ) AS CompanyName
+FROM Applicants 
+WHERE Applicants.ApplicantID IN (SELECT Applications.ApplicantID FROM Applications);
+
+
+
+
+-- Using Subquery with condition 
+SELECT Applicants.FirstName, Applicants.LastName, Companies.CompanyName
+FROM Applicants
+JOIN Applications on Applicants.ApplicantID = Applications.ApplicantID
+JOIN Jobs on Applications.JobID = Jobs.JobID
+JOIN Companies on Jobs.CompanyID = Companies.CompanyID
+WHERE Companies.Location = 'Chennai'
+AND Applicants.ApplicantID IN (
+    SELECT ApplicantID
+    FROM Applicants
+    WHERE Resume LIKE '%2+ years of experience%'
+);
+
 
 
