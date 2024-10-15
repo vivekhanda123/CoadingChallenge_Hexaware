@@ -1,0 +1,14 @@
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.UI.exe.config
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.UI.exe
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.UI.pdb
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.BusinessLayer.dll
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.Entity.dll
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.Util.dll
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.BusinessLayer.pdb
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.Entity.pdb
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\bin\Debug\CareerHub.Util.pdb
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\obj\Debug\CareerHub.UI.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\obj\Debug\CareerHub.UI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\obj\Debug\CareerHu.9D3A8EDF.Up2Date
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\obj\Debug\CareerHub.UI.exe
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.UI\obj\Debug\CareerHub.UI.pdb

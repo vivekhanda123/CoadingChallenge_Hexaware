@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26E72D97-011C-4D02-8438-A907033FA671}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CareerHub.BusinessLayer</RootNamespace>
+    <AssemblyName>CareerHub.BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Exceptions\ApplicationDeadlineException.cs" />
+    <Compile Include="Exceptions\FileUploadException.cs" />
+    <Compile Include="Exceptions\InvalidEmailFormatException.cs" />
+    <Compile Include="Exceptions\InvalidSalaryException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ApplicantRepository.cs" />
+    <Compile Include="Repository\CompanyRepository.cs" />
+    <Compile Include="Repository\IApplicantRepository.cs" />
+    <Compile Include="Repository\ICompanyRepository.cs" />
+    <Compile Include="Repository\IJobApplicationRepository.cs" />
+    <Compile Include="Repository\IJobListingRepository.cs" />
+    <Compile Include="Repository\JobApplicationRepository.cs" />
+    <Compile Include="Repository\JobListingRepository.cs" />
+    <Compile Include="Service\ApplicantService.cs" />
+    <Compile Include="Service\CompanyService.cs" />
+    <Compile Include="Service\IApplicantService.cs" />
+    <Compile Include="Service\ICompanyService.cs" />
+    <Compile Include="Service\IJobApplicationService.cs" />
+    <Compile Include="Service\IJobListingService.cs" />
+    <Compile Include="Service\ISalaryQueryService.cs" />
+    <Compile Include="Service\JobApplicationService.cs" />
+    <Compile Include="Service\JobListingService.cs" />
+    <Compile Include="Service\SalaryQueryService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CareerHub.Entity\CareerHub.Entity.csproj">
+      <Project>{4ef98acb-7f26-404b-b3f2-02b799b1a9ab}</Project>
+      <Name>CareerHub.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CareerHub.Util\CareerHub.Util.csproj">
+      <Project>{8ed73ddd-e366-44d1-b68c-2703566f2475}</Project>
+      <Name>CareerHub.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.Util\bin\Debug\CareerHub.Util.dll
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.Util\bin\Debug\CareerHub.Util.pdb
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.Util\obj\Debug\CareerHub.Util.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.Util\obj\Debug\CareerHub.Util.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.Util\obj\Debug\CareerHub.Util.dll
+C:\Users\Admin\Downloads\Hexaware\Coading Challenge\C#\CareerHub.Util\obj\Debug\CareerHub.Util.pdb

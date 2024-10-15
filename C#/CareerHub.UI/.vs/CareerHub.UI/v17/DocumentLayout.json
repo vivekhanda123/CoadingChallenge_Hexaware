@@ -1,0 +1,506 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D88B994E-A856-4003-B16C-7C97C84954FD}|CareerHub.UI.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88B994E-A856-4003-B16C-7C97C84954FD}|CareerHub.UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\isalaryqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\salaryqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\applicantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\jobapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\joblistingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\joblistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\exceptions\\invalidemailformatexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\exceptions\\applicationdeadlineexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED73DDD-E366-44D1-B68C-2703566F2475}|..\\CareerHub.Util\\CareerHub.Util.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.util\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\exceptions\\invalidsalaryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\exceptions\\fileuploadexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\applicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\ijoblistingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\jobapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\ijobapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\iapplicantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\service\\ijoblistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\ijobapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\repository\\iapplicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D88B994E-A856-4003-B16C-7C97C84954FD}|CareerHub.UI.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D88B994E-A856-4003-B16C-7C97C84954FD}|CareerHub.UI.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E72D97-011C-4D02-8438-A907033FA671}|..\\CareerHub.BusinessLayer\\CareerHub.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.businesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF98ACB-7F26-404B-B3F2-02B799B1A9AB}|..\\CareerHub.Entity\\CareerHub.Entity.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.entity\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF98ACB-7F26-404B-B3F2-02B799B1A9AB}|..\\CareerHub.Entity\\CareerHub.Entity.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.entity\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF98ACB-7F26-404B-B3F2-02B799B1A9AB}|..\\CareerHub.Entity\\CareerHub.Entity.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.entity\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF98ACB-7F26-404B-B3F2-02B799B1A9AB}|..\\CareerHub.Entity\\CareerHub.Entity.csproj|c:\\users\\admin\\downloads\\hexaware\\coading challenge\\c#\\careerhub.entity\\joblisting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISalaryQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\ISalaryQueryService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\ISalaryQueryService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\ISalaryQueryService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\ISalaryQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:45:54.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalaryQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\SalaryQueryService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\SalaryQueryService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\SalaryQueryService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\SalaryQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:45:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\CompanyRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\CompanyRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwBcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:57:20.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Util\\DBConnection.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.Util\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Util\\DBConnection.cs",
+              "RelativeToolTip": "..\\CareerHub.Util\\DBConnection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:31:21.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicantService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\ApplicantService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\ApplicantService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\ApplicantService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\ApplicantService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:22:06.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.UI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAuwKMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:34:57.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobListingService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\JobListingService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\JobListingService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\JobListingService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\JobListingService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:13:30.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JobListingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\JobListingRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\JobListingRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\JobListingRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\JobListingRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:57:08.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\JobApplicationService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\JobApplicationService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\JobApplicationService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\JobApplicationService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:22:44.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvalidSalaryException.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\InvalidSalaryException.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Exceptions\\InvalidSalaryException.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\InvalidSalaryException.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Exceptions\\InvalidSalaryException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T05:55:27.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvalidEmailFormatException.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\InvalidEmailFormatException.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Exceptions\\InvalidEmailFormatException.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\InvalidEmailFormatException.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Exceptions\\InvalidEmailFormatException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T05:59:59.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileUploadException.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\FileUploadException.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Exceptions\\FileUploadException.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\FileUploadException.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Exceptions\\FileUploadException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:00:46.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDeadlineException.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\ApplicationDeadlineException.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Exceptions\\ApplicationDeadlineException.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Exceptions\\ApplicationDeadlineException.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Exceptions\\ApplicationDeadlineException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:01:19.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IJobListingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\IJobListingRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\IJobListingRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\IJobListingRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\IJobListingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:55:39.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\ApplicantRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\ApplicantRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\ApplicantRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\ApplicantRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowD8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:57:33.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JobApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\JobApplicationRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\JobApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\JobApplicationRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\JobApplicationRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowDYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:57:46.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IApplicantService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\IApplicantService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\IApplicantService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\IApplicantService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\IApplicantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:12:13.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IJobApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\IJobApplicationService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\IJobApplicationService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\IJobApplicationService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\IJobApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:12:40.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\CompanyService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\CompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:16:39.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\ICompanyService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:11:47.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IJobListingService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\IJobListingService.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Service\\IJobListingService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Service\\IJobListingService.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Service\\IJobListingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:10:57.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IJobApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\IJobApplicationRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\IJobApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\IJobApplicationRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\IJobApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:56:37.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\ICompanyRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:55:56.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IApplicantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\IApplicantRepository.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Repository\\IApplicantRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Repository\\IApplicantRepository.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Repository\\IApplicantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:56:15.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.UI\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.UI\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-15T04:36:53.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.BusinessLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.BusinessLayer\\Class1.cs",
+              "RelativeToolTip": "..\\CareerHub.BusinessLayer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:36:52.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Applicant.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\Applicant.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.Entity\\Applicant.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\Applicant.cs",
+              "RelativeToolTip": "..\\CareerHub.Entity\\Applicant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:47:18.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\Company.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.Entity\\Company.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\Company.cs",
+              "RelativeToolTip": "..\\CareerHub.Entity\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:47:03.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JobApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\JobApplication.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.Entity\\JobApplication.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\JobApplication.cs",
+              "RelativeToolTip": "..\\CareerHub.Entity\\JobApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:47:36.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JobListing.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\JobListing.cs",
+              "RelativeDocumentMoniker": "..\\CareerHub.Entity\\JobListing.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware\\Coading Challenge\\C#\\CareerHub.Entity\\JobListing.cs",
+              "RelativeToolTip": "..\\CareerHub.Entity\\JobListing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:37:23.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
