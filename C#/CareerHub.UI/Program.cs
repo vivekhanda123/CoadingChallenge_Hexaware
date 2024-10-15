@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace CareerHub.UI
 {
     internal class Program
@@ -16,6 +17,7 @@ namespace CareerHub.UI
             ICompanyRepository companyRepository = new CompanyRepository();
             IApplicantRepository applicantRepository = new ApplicantRepository();
             IJobApplicationRepository jobApplicationRepository = new JobApplicationRepository();
+            ISalaryRangeRepository salaryRangeRepository = new SalaryRangeRepository();
 
             bool exit = false;
 
@@ -34,7 +36,8 @@ namespace CareerHub.UI
                     Console.WriteLine("6. List All Companies");
                     Console.WriteLine("7. List All Applicants");
                     Console.WriteLine("8. View Applications for a Job");
-                    Console.WriteLine("9. Exit");
+                    Console.WriteLine("9. List Jobs in Salary Range");
+                    Console.WriteLine("10. Exit");
 
                     Console.Write("Enter your choice: ");
                     string choice = Console.ReadLine();
@@ -74,6 +77,10 @@ namespace CareerHub.UI
                             break;
 
                         case "9":
+                            ListJobsInSalaryRange(salaryRangeRepository); // New method for salary range
+                            break;
+
+                        case "10":
                             exit = true;
                             break;
 
@@ -258,6 +265,40 @@ namespace CareerHub.UI
                 {
                     Console.WriteLine($"Application ID: {application.ApplicationID}, Applicant ID: {application.ApplicantID}, Date: {application.ApplicationDate}, Cover Letter: {application.CoverLetter}");
                 }
+            }
+        }
+
+        // New method to list jobs within a salary range
+        static void ListJobsInSalaryRange(ISalaryRangeRepository salaryRangeRepository)
+        {
+            try
+            {
+                Console.Write("Enter Minimum Salary: ");
+                decimal minSalary = decimal.Parse(Console.ReadLine());
+                Console.Write("Enter Maximum Salary: ");
+                decimal maxSalary = decimal.Parse(Console.ReadLine());
+
+                List<JobListing> jobsInRange = salaryRangeRepository.GetJobsInSalaryRange(minSalary, maxSalary);
+
+                if (jobsInRange.Count == 0)
+                {
+                    Console.WriteLine("No job listings found within this salary range.");
+                }
+                else
+                {
+                    foreach (var job in jobsInRange)
+                    {
+                        Console.WriteLine($"Job ID: {job.JobID}, Title: {job.JobTitle}, Location: {job.JobLocation}, Salary: {job.Salary}, Type: {job.JobType}");
+                    }
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid salary format. Please enter numeric values.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
     }

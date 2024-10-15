@@ -53,18 +53,21 @@
     <Compile Include="Repository\ICompanyRepository.cs" />
     <Compile Include="Repository\IJobApplicationRepository.cs" />
     <Compile Include="Repository\IJobListingRepository.cs" />
+    <Compile Include="Repository\ISalaryRangeRepository.cs" />
     <Compile Include="Repository\JobApplicationRepository.cs" />
     <Compile Include="Repository\JobListingRepository.cs" />
+    <Compile Include="Repository\SalaryRangeRepository.cs" />
     <Compile Include="Service\ApplicantService.cs" />
     <Compile Include="Service\CompanyService.cs" />
     <Compile Include="Service\IApplicantService.cs" />
     <Compile Include="Service\ICompanyService.cs" />
     <Compile Include="Service\IJobApplicationService.cs" />
     <Compile Include="Service\IJobListingService.cs" />
-    <Compile Include="Service\ISalaryQueryService.cs" />
+    <Compile Include="Service\ISalaryRangeService.cs" />
     <Compile Include="Service\JobApplicationService.cs" />
     <Compile Include="Service\JobListingService.cs" />
     <Compile Include="Service\SalaryQueryService.cs" />
+    <Compile Include="Service\SalaryRangeService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CareerHub.Entity\CareerHub.Entity.csproj">
